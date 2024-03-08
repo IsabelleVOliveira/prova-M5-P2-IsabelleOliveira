@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <title>Página de cadastro</title>
+    </head>
+    <body>
+        <h1>Cadastrar novos pontos</h1>
+        <p>Prencha as coodenadas</p>
+        <div>
+            <form id= "cadastro" method="post" action="/novo_cadastro">
+                <label for="taxa">Coordenadas:</label>
+                <input type="text" name="nome" placeholder="Nome do suário">
+                <input type="number" id="taxa" name="taxa" value="{{ taxa }}">
+
+                <button type="submit" name="direcao" value="x">X</button>
+                <button type="submit" name="direcao" value="y">Y</button>
+                <button type="submit" name="direcao" value="z">Z</button>
+                <button type="submit" name="direcao" value="r">R</button>
+            </form>
+            <br>
+        </div>
+    </body>
+</htm>
